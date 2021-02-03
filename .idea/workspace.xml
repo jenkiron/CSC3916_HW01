@@ -106,6 +106,7 @@
       <workItem from="1546220016638" duration="639000" />
       <workItem from="1612221154132" duration="954000" />
       <workItem from="1612373591643" duration="618000" />
+      <workItem from="1612374249767" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1612221263491</created>
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612221263491</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit. Testing">
+      <created>1612374437283</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612374437283</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -147,7 +155,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="First commit. Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit. Testing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.js">
