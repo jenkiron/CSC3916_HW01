@@ -20,7 +20,6 @@ server.on("request", (request, response) => {
     response.on("error", err => {
         console.error(err);
     });
-    document.write("Hello.");
     //response.write("Hello World!");
 });
 
