@@ -7,7 +7,8 @@ server.on("request", (request, response) => {
     request.on("data", chunk => {
         body.push(chunk);
     });
-    request.on("end", () => {
+    request
+        .on("end", () => {
             let bodyString = body.concat().toString();
             console.log(bodyString);
             response.end(bodyString);
@@ -19,9 +20,7 @@ server.on("request", (request, response) => {
     response.on("error", err => {
         console.error(err);
     });
-
     //response.write("Hello World!");
-
 });
 
 //Server
