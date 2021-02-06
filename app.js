@@ -1,12 +1,13 @@
+//Importing module for client server for http
 var server = require("http").createServer();
 
+//Run server to open port, request:response
 server.on("request", (request, response) => {
     var body = [];
     request.on("data", chunk => {
         body.push(chunk);
     });
-    request
-        .on("end", () => {
+    request.on("end", () => {
             let bodyString = body.concat().toString();
             console.log(bodyString);
             response.end(bodyString);
@@ -18,7 +19,13 @@ server.on("request", (request, response) => {
     response.on("error", err => {
         console.error(err);
     });
+    document.write("Hello");
+
+    response.write("Hello World!");
 });
+
+//Server
+//process.env.PORT is for Heroku, localhost is default
 server.listen(process.env.PORT || 8008, () => {
     console.log("Server listening at 8008");
 });

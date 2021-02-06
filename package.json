@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shawnmccarthy/CSC3916_HW01.git"
+    "url": "git+https://github.com/jenkiron/CSC3916_HW01.git"
   },
   "keywords": [
     "Echo"
   ],
-  "author": "Shawn McCarthy",
+  "author": "Ronald Jenkins",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shawnmccarthy/CSC3916_HW01/issues"
+    "url": "https://github.com/jekiron/CSC3916_HW01/issues"
   },
-  "homepage": "https://github.com/shawnmccarthy/CSC3916_HW01#readme"
+  "homepage": "https://github.com/jenkiron/CSC3916_HW01#readme"
 }
